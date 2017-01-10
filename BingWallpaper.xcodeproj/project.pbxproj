@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0905205D1E24814E004810C3 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 0905205A1E24814E004810C3 /* LICENSE */; };
+		0905205E1E24814E004810C3 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 0905205B1E24814E004810C3 /* README.md */; };
 		090E73811E2347C5006189FE /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090E73801E2347C5006189FE /* NetworkService.swift */; };
 		0952C55F1E1A13D3009AC846 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0952C55E1E1A13D3009AC846 /* AppDelegate.swift */; };
 		0952C5611E1A13D3009AC846 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0952C5601E1A13D3009AC846 /* Assets.xcassets */; };
@@ -34,6 +36,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0905205A1E24814E004810C3 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = SOURCE_ROOT; };
+		0905205B1E24814E004810C3 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		0905205C1E24814E004810C3 /* testing.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = testing.playground; sourceTree = SOURCE_ROOT; };
 		090E73801E2347C5006189FE /* NetworkService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 		0952C55B1E1A13D3009AC846 /* BingWallpaper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BingWallpaper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0952C55E1E1A13D3009AC846 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -98,6 +103,9 @@
 			isa = PBXGroup;
 			children = (
 				0952C55E1E1A13D3009AC846 /* AppDelegate.swift */,
+				0905205A1E24814E004810C3 /* LICENSE */,
+				0905205B1E24814E004810C3 /* README.md */,
+				0905205C1E24814E004810C3 /* testing.playground */,
 				0952C5601E1A13D3009AC846 /* Assets.xcassets */,
 				0952C5621E1A13D3009AC846 /* MainMenu.xib */,
 				0952C5871E1A1876009AC846 /* BingAPI.swift */,
@@ -232,6 +240,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0905205D1E24814E004810C3 /* LICENSE in Resources */,
 				0952C5611E1A13D3009AC846 /* Assets.xcassets in Resources */,
 				0952C5641E1A13D3009AC846 /* MainMenu.xib in Resources */,
 			);
@@ -260,6 +269,7 @@
 			files = (
 				0952C5881E1A1876009AC846 /* BingAPI.swift in Sources */,
 				090E73811E2347C5006189FE /* NetworkService.swift in Sources */,
+				0905205E1E24814E004810C3 /* README.md in Sources */,
 				0952C55F1E1A13D3009AC846 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

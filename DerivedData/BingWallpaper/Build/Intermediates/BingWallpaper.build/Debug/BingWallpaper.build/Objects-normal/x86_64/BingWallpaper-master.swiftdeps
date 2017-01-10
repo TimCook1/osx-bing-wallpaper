@@ -1,7 +1,7 @@
 version: "Apple Swift version 3.0 (swiftlang-800.0.46.2 clang-800.0.38)"
-options: "37dd2f6973940f5884bb2c821d73c62b"
-build_time: [537268103, 384112000]
+options: "8a9a8bea0ea941758cc8137097b7653e"
+build_time: [537331279, 813656000]
 inputs:
-  "/Users/johnstray/Desktop/BingWallpaper/BingWallpaper/BingAPI.swift": [537266868, 0]
-  "/Users/johnstray/Desktop/BingWallpaper/BingWallpaper/NetworkService.swift": [537252893, 0]
-  "/Users/johnstray/Desktop/BingWallpaper/BingWallpaper/AppDelegate.swift": [537268094, 0]
+  "/Users/johnstray/Documents/GitHub/osx-bing-wallpaper/BingWallpaper/BingAPI.swift": !dirty [537266868, 0]
+  "/Users/johnstray/Documents/GitHub/osx-bing-wallpaper/BingWallpaper/NetworkService.swift": !dirty [537252893, 0]
+  "/Users/johnstray/Documents/GitHub/osx-bing-wallpaper/BingWallpaper/AppDelegate.swift": !dirty [537268094, 0]

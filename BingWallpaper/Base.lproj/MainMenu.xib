@@ -63,7 +63,7 @@
                         <font key="font" metaFont="system"/>
                         <tabViewItems>
                             <tabViewItem label="Preview" identifier="" id="65E-dE-icz">
-                                <view key="view" ambiguous="YES" id="w9v-e5-f0X">
+                                <view key="view" id="w9v-e5-f0X">
                                     <rect key="frame" x="10" y="33" width="554" height="239"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <subviews>
@@ -272,14 +272,14 @@
                                         <scrollView fixedFrame="YES" autohidesScrollers="YES" horizontalLineScroll="10" horizontalPageScroll="10" verticalLineScroll="10" verticalPageScroll="10" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZvG-UB-Bqz">
                                             <rect key="frame" x="17" y="17" width="520" height="219"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                            <clipView key="contentView" ambiguous="YES" id="3c9-2g-jhf">
+                                            <clipView key="contentView" ambiguous="YES" drawsBackground="NO" id="3c9-2g-jhf">
                                                 <rect key="frame" x="1" y="1" width="518" height="217"/>
-                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                                <autoresizingMask key="autoresizingMask"/>
                                                 <subviews>
                                                     <collectionView ambiguous="YES" id="D6b-O5-NRl">
                                                         <rect key="frame" x="0.0" y="0.0" width="518" height="217"/>
                                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                                        <collectionViewGridLayout key="collectionViewLayout" maximumNumberOfColumns="3" id="48f-FG-esO"/>
+                                                        <collectionViewGridLayout key="collectionViewLayout" id="48f-FG-esO"/>
                                                         <color key="primaryBackgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
                                                     </collectionView>
                                                 </subviews>
@@ -298,7 +298,7 @@
                                 </view>
                             </tabViewItem>
                             <tabViewItem label="About" identifier="" id="8Eh-34-0tI">
-                                <view key="view" id="Pgd-rl-uCn">
+                                <view key="view" ambiguous="YES" id="Pgd-rl-uCn">
                                     <rect key="frame" x="10" y="33" width="554" height="239"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <subviews>
@@ -472,8 +472,8 @@
                         <font key="font" metaFont="system"/>
                         <tabViewItems>
                             <tabViewItem label="GNU GPLv3" identifier="1" id="pvg-Qq-71S">
-                                <view key="view" ambiguous="YES" id="FzS-Ug-WJ3">
-                                    <rect key="frame" x="10" y="33" width="141" height="0.0"/>
+                                <view key="view" id="FzS-Ug-WJ3">
+                                    <rect key="frame" x="10" y="33" width="434" height="400"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <subviews>
                                         <scrollView fixedFrame="YES" horizontalLineScroll="10" horizontalPageScroll="10" verticalLineScroll="10" verticalPageScroll="10" hasHorizontalScroller="NO" allowsMagnification="YES" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ztz-kL-ooo">
@@ -484,7 +484,7 @@
                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                 <subviews>
                                                     <textView ambiguous="YES" editable="NO" baseWritingDirection="leftToRight" findStyle="bar" allowsNonContiguousLayout="YES" quoteSubstitution="YES" linkDetection="YES" dataDetection="YES" dashSubstitution="YES" id="rlZ-ty-2dz">
-                                                        <rect key="frame" x="0.0" y="0.0" width="383" height="7591"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="383" height="7903"/>
                                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                         <size key="minSize" width="383" height="378"/>
@@ -1166,7 +1166,7 @@ The GNU General Public License does not permit incorporating your program into p
                                 </view>
                             </tabViewItem>
                             <tabViewItem label="Bing Wallpapers" identifier="2" id="q39-74-0wQ">
-                                <view key="view" id="Kfd-ef-JwG">
+                                <view key="view" ambiguous="YES" id="Kfd-ef-JwG">
                                     <rect key="frame" x="10" y="33" width="434" height="400"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <subviews>
@@ -1175,7 +1175,7 @@ The GNU General Public License does not permit incorporating your program into p
                                             <autoresizingMask key="autoresizingMask"/>
                                             <clipView key="contentView" ambiguous="YES" id="AxD-AI-Gfb">
                                                 <rect key="frame" x="1" y="1" width="383" height="378"/>
-                                                <autoresizingMask key="autoresizingMask"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                 <subviews>
                                                     <textView ambiguous="YES" editable="NO" findStyle="bar" allowsNonContiguousLayout="YES" quoteSubstitution="YES" linkDetection="YES" dataDetection="YES" dashSubstitution="YES" id="LZ1-fF-ruY">
                                                         <rect key="frame" x="0.0" y="0.0" width="383" height="378"/>
@@ -1202,7 +1202,7 @@ The GNU General Public License does not permit incorporating your program into p
                                                 <autoresizingMask key="autoresizingMask"/>
                                             </scroller>
                                             <scroller key="verticalScroller" verticalHuggingPriority="750" doubleValue="1" horizontal="NO" id="RW7-NP-i5Z">
-                                                <rect key="frame" x="1" y="1" width="15" height="0.0"/>
+                                                <rect key="frame" x="384" y="1" width="15" height="378"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                             </scroller>
                                         </scrollView>
