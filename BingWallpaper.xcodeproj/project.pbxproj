@@ -13,8 +13,6 @@
 		0952C55F1E1A13D3009AC846 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0952C55E1E1A13D3009AC846 /* AppDelegate.swift */; };
 		0952C5611E1A13D3009AC846 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0952C5601E1A13D3009AC846 /* Assets.xcassets */; };
 		0952C5641E1A13D3009AC846 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0952C5621E1A13D3009AC846 /* MainMenu.xib */; };
-		0952C56F1E1A13D3009AC846 /* BingWallpaperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0952C56E1E1A13D3009AC846 /* BingWallpaperTests.swift */; };
-		0952C57A1E1A13D3009AC846 /* BingWallpaperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0952C5791E1A13D3009AC846 /* BingWallpaperUITests.swift */; };
 		0952C5881E1A1876009AC846 /* BingAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0952C5871E1A1876009AC846 /* BingAPI.swift */; };
 /* End PBXBuildFile section */
 
@@ -46,11 +44,7 @@
 		0952C5631E1A13D3009AC846 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		0952C5651E1A13D3009AC846 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0952C56A1E1A13D3009AC846 /* BingWallpaperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BingWallpaperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0952C56E1E1A13D3009AC846 /* BingWallpaperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BingWallpaperTests.swift; sourceTree = "<group>"; };
-		0952C5701E1A13D3009AC846 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0952C5751E1A13D3009AC846 /* BingWallpaperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BingWallpaperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0952C5791E1A13D3009AC846 /* BingWallpaperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BingWallpaperUITests.swift; sourceTree = "<group>"; };
-		0952C57B1E1A13D3009AC846 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0952C5871E1A1876009AC846 /* BingAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BingAPI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -83,8 +77,6 @@
 			isa = PBXGroup;
 			children = (
 				0952C55D1E1A13D3009AC846 /* BingWallpaper */,
-				0952C56D1E1A13D3009AC846 /* BingWallpaperTests */,
-				0952C5781E1A13D3009AC846 /* BingWallpaperUITests */,
 				0952C55C1E1A13D3009AC846 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -113,24 +105,6 @@
 				0952C5651E1A13D3009AC846 /* Info.plist */,
 			);
 			path = BingWallpaper;
-			sourceTree = "<group>";
-		};
-		0952C56D1E1A13D3009AC846 /* BingWallpaperTests */ = {
-			isa = PBXGroup;
-			children = (
-				0952C56E1E1A13D3009AC846 /* BingWallpaperTests.swift */,
-				0952C5701E1A13D3009AC846 /* Info.plist */,
-			);
-			path = BingWallpaperTests;
-			sourceTree = "<group>";
-		};
-		0952C5781E1A13D3009AC846 /* BingWallpaperUITests */ = {
-			isa = PBXGroup;
-			children = (
-				0952C5791E1A13D3009AC846 /* BingWallpaperUITests.swift */,
-				0952C57B1E1A13D3009AC846 /* Info.plist */,
-			);
-			path = BingWallpaperUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -278,7 +252,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0952C56F1E1A13D3009AC846 /* BingWallpaperTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,7 +259,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0952C57A1E1A13D3009AC846 /* BingWallpaperUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
