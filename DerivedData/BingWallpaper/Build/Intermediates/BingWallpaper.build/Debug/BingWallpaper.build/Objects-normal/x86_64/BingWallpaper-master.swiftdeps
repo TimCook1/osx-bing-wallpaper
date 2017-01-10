@@ -1,0 +1,7 @@
+version: "Apple Swift version 3.0 (swiftlang-800.0.46.2 clang-800.0.38)"
+options: "37dd2f6973940f5884bb2c821d73c62b"
+build_time: [537268103, 384112000]
+inputs:
+  "/Users/johnstray/Desktop/BingWallpaper/BingWallpaper/BingAPI.swift": [537266868, 0]
+  "/Users/johnstray/Desktop/BingWallpaper/BingWallpaper/NetworkService.swift": [537252893, 0]
+  "/Users/johnstray/Desktop/BingWallpaper/BingWallpaper/AppDelegate.swift": [537268094, 0]
